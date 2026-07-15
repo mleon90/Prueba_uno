@@ -29,3 +29,9 @@ git checkout -f nombre_rama
 git checkout -- nombre_archivo
 
 #11 cambio
+
+# Alias para ver el log en una sola línea, con decoración y gráfico
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
+# Alias para ver el estado resumido y la rama actual
+git config --global alias.s "status -s -b"
