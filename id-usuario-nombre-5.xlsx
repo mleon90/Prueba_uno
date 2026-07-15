@@ -1,0 +1,6 @@
+﻿ID Usuario,Nombre,Correo,Rol,Activo
+U001,Ana Pérez,ana.perez@test.com,Admin,Sí
+U002,Juan Gómez,juan.gomez@test.com,User,Sí
+U003,Laura Díaz,laura.diaz@test.com,User,No
+U004,Carlos Ruiz,carlos.ruiz@test.com,Tester,Sí
+U005,Mariana León,mariana.leon@test.com,User,Sí

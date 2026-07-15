@@ -1,0 +1,6 @@
+﻿ID Test,Nombre,Descripción,Estado esperado
+T001,Login básico,Validar login con credenciales correctas,Success
+T002,Login inválido,Validar mensaje de error con credenciales incorrectas,Fail
+T003,Subida archivo,Verificar que se cargue un archivo PDF,Success
+T004,Scroll página,Validar que el scroll funcione en la sección principal,Success
+T005,Drag & Drop,Comprobar que se pueda arrastrar y soltar elementos,Success
