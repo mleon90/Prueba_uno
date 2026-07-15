@@ -1,0 +1,31 @@
+# 1. Inicializar un repositorio
+git init
+
+# 2. Ver el estado de los archivos
+git status
+
+# 3. Ver el historial de commits
+git log
+
+# 4. Agregar un archivo específico al área de preparación
+git add nombre_archivo
+
+# 5. Agregar todos los archivos con extensión .doc
+git add *.doc
+
+# 6. Crear un commit con mensaje
+git commit -m "Demo commit"
+
+# 7. Revertir cambios en todos los archivos al último commit
+git checkout -- .
+
+# 8. Cambiar a un commit específico
+git checkout <commit_id>
+
+# 9. Cambiar forzadamente a una rama
+git checkout -f nombre_rama
+
+# 10. Revertir cambios en un archivo específico
+git checkout -- nombre_archivo
+
+#11 cambio
