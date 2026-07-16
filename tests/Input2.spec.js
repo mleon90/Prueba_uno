@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 const sleep = (ms) => {
     return new Promise ((resolve) => setTimeout(resolve, ms))
+    //esto es un cambio en el codigo 
 };
 test('test', async ({ page }) => {
   await page.goto('https://demoqa.com/text-box');
